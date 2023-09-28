@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="generator" content="Gatsby 2.31.1"><title>Week 13 - Day 3 | Welcome to Per Scholas</title><style type="text/css">
+    .anchor.before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      padding-right: 4px;
+    }
+    .anchor.after {
+      display: inline-block;
+      padding-left: 4px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 150)
+          }), 0)
+        }
+      }
+    })
+  </script><link rel="icon" href="https://ps-rtt-sei.herokuapp.com/icons/icon-48x48.png?v=bc53f675ef4671bab697c7c8b5b3597b"><link rel="manifest" href="https://ps-rtt-sei.herokuapp.com/manifest.webmanifest"><meta name="theme-color" content="#142fdc"><link rel="apple-touch-icon" sizes="48x48" href="https://ps-rtt-sei.herokuapp.com/icons/icon-48x48.png?v=bc53f675ef4671bab697c7c8b5b3597b"><link rel="apple-touch-icon" sizes="72x72" href="https://ps-rtt-sei.herokuapp.com/icons/icon-72x72.png?v=bc53f675ef4671bab697c7c8b5b3597b"><link rel="apple-touch-icon" sizes="96x96" href="https://ps-rtt-sei.herokuapp.com/icons/icon-96x96.png?v=bc53f675ef4671bab697c7c8b5b3597b"><link rel="apple-touch-icon" sizes="144x144" href="https://ps-rtt-sei.herokuapp.com/icons/icon-144x144.png?v=bc53f675ef4671bab697c7c8b5b3597b"><link rel="apple-touch-icon" sizes="192x192" href="https://ps-rtt-sei.herokuapp.com/icons/icon-192x192.png?v=bc53f675ef4671bab697c7c8b5b3597b"><link rel="apple-touch-icon" sizes="256x256" href="https://ps-rtt-sei.herokuapp.com/icons/icon-256x256.png?v=bc53f675ef4671bab697c7c8b5b3597b"><link rel="apple-touch-icon" sizes="384x384" href="https://ps-rtt-sei.herokuapp.com/icons/icon-384x384.png?v=bc53f675ef4671bab697c7c8b5b3597b"><link rel="apple-touch-icon" sizes="512x512" href="https://ps-rtt-sei.herokuapp.com/icons/icon-512x512.png?v=bc53f675ef4671bab697c7c8b5b3597b"><noscript><meta http-equiv="refresh" content="0;url=/.gatsby-plugin-offline:api=disableOfflineShell&amp;redirect=true"/></noscript><link as="script" rel="preload" href="./mern-infrastructure-lesson_files/webpack-runtime-ed9eaa30d0151fa21629.js"><link as="script" rel="preload" href="./mern-infrastructure-lesson_files/framework-3a7848aaea46757d07eb.js"><link as="script" rel="preload" href="./mern-infrastructure-lesson_files/app-0730cd307360a5301aec.js"><link as="script" rel="preload" href="./mern-infrastructure-lesson_files/component---cache-caches-gatsby-plugin-offline-app-shell-js-631c8ff68f235357b86d.js"><link rel="stylesheet" type="text/css" href="./mern-infrastructure-lesson_files/styles.5662728d122f31bc233c.css"><script charset="utf-8" src="./mern-infrastructure-lesson_files/styles-e9d24b1846c7d6eb9685.js"></script><script charset="utf-8" src="./mern-infrastructure-lesson_files/84f7b11668c582f9b985ea6c7f2022bebf2389a8-12ab78dd99ff36ac14f1.js"></script><script charset="utf-8" src="./mern-infrastructure-lesson_files/component---src-templates-page-js-5dc73960feaa93acc569.js"></script><meta name="description" content="An interactive website for students currently enrolled in Per Scholas" data-rh="true"><meta name="keywords" content="software engineer, software engineering, coding, javascript, html, css" data-rh="true"><link rel="prefetch" href="https://ps-rtt-sei.herokuapp.com/page-data/main/page-data.json" crossorigin="anonymous" as="fetch"><link rel="prefetch" href="https://ps-rtt-sei.herokuapp.com/page-data/index/page-data.json" crossorigin="anonymous" as="fetch"><link rel="prefetch" href="https://ps-rtt-sei.herokuapp.com/page-data/index/page-data.json" crossorigin="anonymous" as="fetch"><link rel="prefetch" href="./mern-infrastructure-lesson_files/component---src-pages-main-js-5c40ab85ae34e660f4d3.js"><link rel="prefetch" href="./mern-infrastructure-lesson_files/component---src-pages-index-js-bc5a668bb16b55e98ce0.js"><link rel="prefetch" href="./mern-infrastructure-lesson_files/component---src-pages-index-js-bc5a668bb16b55e98ce0.js"><script charset="utf-8" src="./mern-infrastructure-lesson_files/component---src-pages-index-js-bc5a668bb16b55e98ce0.js"></script><script charset="utf-8" src="./mern-infrastructure-lesson_files/component---src-pages-main-js-5c40ab85ae34e660f4d3.js"></script></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="layout-module--outer-container--1WlwC"><div class="nav-wrapper"><a href="https://ps-rtt-sei.herokuapp.com/"><img class="logo" src="./mern-infrastructure-lesson_files/pslogo-b155ae9beec55510ff7ffeb19e886aea.png" alt="Welcome to Per Scholas"></a><span></span><nav class="nav"><a href="https://ps-rtt-sei.herokuapp.com/"></a><a target="_blank" rel="noopener noreferrer" href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#"></a><a target="_blank" rel="noopener noreferrer" href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#"></a><a href="https://ps-rtt-sei.herokuapp.com/main/profile">Profile</a></nav><button class="burger">☰</button></div><div class="layout-module--inner-container--33Ck1"><div class="layout-module--bread-container--1tCBA"><div><span class="breadcrumb__title"></span><div class="breadcrumb" style="display: inline;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/" class="breadcrumb__link" style="text-decoration: none; font-size: 16pt; color: rgb(225, 225, 225);">/</a><span class="breadcrumb__separator" style="font-size: 16pt;"></span></div><div class="breadcrumb" style="display: inline;"><a aria-current="page" class="breadcrumb__link" href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/" style="text-decoration: none; font-size: 16pt; color: blue;">Week 13 - Day 3</a><span class="breadcrumb__separator" style="font-size: 16pt; color: rgb(0, 0, 0);"></span></div></div></div><main id="myPageData"><h1 id="section-1" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#section-1" aria-label="section 1 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Section 1</h1>
+<center>
+<img src="./mern-infrastructure-lesson_files/IKHxRMa.png">
+<h1 id="infrastructure-for-production-grade-single-page-applications-spas-with-the-mern-stack" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#infrastructure-for-production-grade-single-page-applications-spas-with-the-mern-stack" aria-label="infrastructure for production grade single page applications spas with the mern stack permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Infrastructure for Production Grade Single-Page Applications (SPAs) with the MERN-Stack</h1>
+<h2 id="learning-objectives" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#learning-objectives" aria-label="learning objectives permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Learning Objectives</h2>
+<table>
+<thead>
+<tr>
+<th>Students Will Be Able To:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Explain the difference between a SPA and a traditional multi-page web application</td>
+</tr>
+<tr>
+<td>Identify the three development concepts that make SPAs possible</td>
+</tr>
+<tr>
+<td>Structure a MERN-Stack Project</td>
+</tr>
+</tbody>
+</table>
+</center>
+<h2 id="road-map" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#road-map" aria-label="road map permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Road Map</h2>
+<ul>
+<li>Intro to SPAs</li>
+<li>Intro to the MERN-Stack</li>
+<li>This Unit's Reference App: <strong>MERN CAFE</strong></li>
+<li>Building a MERN-Stack's Infrastructure</li>
+<li>Let's Begin Building <strong>mern-infrastructure</strong></li>
+<li>Configure React for Full-stack Development</li>
+<li>Further Study</li>
+</ul>
+<h2 id="intro-to-spas" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#intro-to-spas" aria-label="intro to spas permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Intro to SPAs</h2>
+<h3 id="review---what-is-a-single-page-app" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#review---what-is-a-single-page-app" aria-label="review   what is a single page app permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Review - What is a Single-Page App?</h3>
+<p>We've mentioned them previously - <strong>what are they?</strong></p>
+<img src="./mern-infrastructure-lesson_files/m01TbLF.png">
+<p>In a traditional multi-page web app, if we click a link, submit data via a form, or type in the address bar and press [enter], <strong>what happens?</strong></p>
+<p>In a SPA, we still want to be able to access different functionality by clicking links, submitting data to the server, etc., however, we want the UI to update without triggering a full-page refresh.</p>
+<p>There are three development concepts that make SPAs possible:</p>
+<ol>
+<li>AJAX Communications between client and server</li>
+<li>Client-Side Routing</li>
+<li>Client-Side Rendering</li>
+</ol>
+<h3 id="concept-1-clientserver-communication-via-ajax" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#concept-1-clientserver-communication-via-ajax" aria-label="concept 1 clientserver communication via ajax permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Concept 1: Client/Server Communication via AJAX</h3>
+<p>As you've seen, the <code>fetch</code> API, as well as utilities such as Axios &amp; jQuery's AJAX methods can be used to send HTTP requests to a server using JavaScript instead of using forms and links in the page.</p>
+<p>With AJAX, the server responds to an HTTP request with an HTTP response that usually contains a JSON payload in the response body.</p>
+<p>Because the request was sent via code, and the response handled via code, the browser has no reason to reload the page!</p>
+<h3 id="concept-2-client-side-routing" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#concept-2-client-side-routing" aria-label="concept 2 client side routing permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Concept 2: Client-Side Routing</h3>
+<p>When the users have interacted by clicking links and submitting forms in the traditional multi-page web apps we've built thus far, the server has responded with a new HTML document that the browser proceeds to replace the current page with.</p>
+<p>In a SPA, we still need a way to switch to different "pages" of functionality (see diagram above) - but without replacing the entire HTML document that's currently loaded in the browser...</p>
+<p><strong>Client-side routing</strong> is what enables users of a SPA to navigate to different "pages" without triggering a full-page refresh.</p>
+<p>The users will still be clicking navigation "links" that cause the browser's address bar to change.  However, the client-side router intercepts the changes to the path by tapping into the browser's <a href="https://developer.mozilla.org/en-US/docs/Web/API/History_API">History API</a>. Intercepting the change to the path in the address bar prevents a request from ever being sent to the server. Instead, the SPA will react locally and this is why it's called client-side routing.</p>
+<blockquote>
+<p>Note that we will continue to define server-side routes, however, the vast majority of those routes will be API-type routes that are accessed via AJAX calls, perform CRUD and return data as JSON needed by the frontend.</p>
+</blockquote>
+<p>Feel free to checkout the Further Study section to learn more about the History API and Hash URIs.</p>
+<h3 id="concept-3-client-side-rendering" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#concept-3-client-side-rendering" aria-label="concept 3 client side rendering permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Concept 3: Client-Side Rendering</h3>
+<p>So, assume a user clicks an <strong>Add Comment</strong> button in a SPA and expects to see the new comment show up in the list of comments...</p>
+<p>This is a SPA, so you don't want the button to cause a full-page refresh!</p>
+<p>In SPAs, you would send an AJAX request containing the data for the new comment to the server.</p>
+<p>The server would update the database and send back a response (probably containing the updated list of comments).</p>
+<p>However, to make the comment show up in the UI, it needs to be updated using JavaScript - a process we call <strong>client-side rendering</strong>.</p>
+<details><summary>Guess who the undisputed client-side rendering champion is...</summary>
+<p><strong>The React Library - of course!</strong></p>
+</details>
+<h3 id="-review-questions---spas" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#-review-questions---spas" aria-label=" review questions   spas permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>❓ Review Questions - SPAs</h3>
+<ol>
+<li><strong>What's the most significant difference between a traditional multi-page web app and a single-page app?</strong></li>
+<li><strong>What three development concepts enable the creation of comprehensive single-page applications?</strong></li>
+</ol>
+<h2 id="intro-to-the-mern-stack" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#intro-to-the-mern-stack" aria-label="intro to the mern stack permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Intro to the MERN-Stack</h2>
+<p>A technology stack, also called a solutions stack, is a group of development tools/services used to build an application.</p>
+<p>For example, the LAMP-Stack is a mature technology stack that uses:  Linux, Apache (web server), MySQL and PHP (web development programming language).</p>
+<p>In the last unit, our stack consisted of Python, Django &amp; PostgreSQL - sorry, no meaningful acronym in this case.</p>
+<p>There are a few tech stacks that use MongoDB, Express &amp; Node as their backend solutions. Then one of the following front-end solutions is added to the stack:</p>
+<ul>
+<li><a href="https://reactjs.org/">React</a> which results in the MERN-Stack</li>
+<li><a href="https://angular.io/">Angular</a> which results in the MEAN-Stack</li>
+<li><a href="https://vuejs.org/">Vue.js</a> which results in the MEVN-Stack</li>
+</ul>
+<p>The MERN-Stack is by far the most popular tech stack currently and will remain so into the foreseeable future.</p>
+<h3 id="architecture-of-the-mern-stack" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#architecture-of-the-mern-stack" aria-label="architecture of the mern stack permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Architecture of the MERN-Stack</h3>
+<p>The following depicts the overall architecture of a MERN-Stack app:</p>
+<center>
+<div style="display: flex; justify-content: space-between;">
+<p><img src="./mern-infrastructure-lesson_files/Untitled Diagram.drawio.png" alt="mern architecture"></p>
+</div>
+</center>
+<p>The flow is as follows:</p>
+<ol>
+<li>
+<p>When the user browses to the app's URL, the Express server always delivers the static <strong>public/index.html</strong> page.</p>
+<blockquote>
+<p>Note that there are no JSX templates on the server - just the static index.html.  In fact, there's no reason to install the JSX template engine.</p>
+</blockquote>
+</li>
+<li>When the browser loads <strong>index.html</strong>, it will request the scripts that contain the React app - this is shown as the blue CLIENT/React app.</li>
+<li>The code in the React app's <strong>index.js</strong> module runs, which causes the React app to render for the first time. During this initial rendering, the client-side routing library renders components based upon the path of the URL.</li>
+<li>After the <strong>index.html</strong> has been loaded, all subsequent HTTP communications between the client and server will be via AJAX in order to avoid the page from being reloaded.</li>
+<li>Certain components may want to CRUD data on the server. However, we won't litter components with the code responsible for CRUD. Instead, as a best practice, that code will be organized into <strong>service/API</strong> modules.</li>
+<li>On the server, a single non-API "traditional" route will be defined with the purpose of delivering the static <strong>index.html</strong> file. We will refer to this route as the "catch all" route since it will match all <code>GET</code> requests that do not match any of the "API" routes...</li>
+<li>Other than the single "catch all" route just mentioned, all other routes on the server will be defined to respond to AJAX requests with JSON. By convention, the endpoints of these routes with be prefaced with <code>/api</code>, e.g., <code>/api/cats</code>, <code>/api/login</code>, etc.</li>
+</ol>
+<h3 id="how-to-structure-a-mern-stack-project" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#how-to-structure-a-mern-stack-project" aria-label="how to structure a mern stack project permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to Structure a MERN-Stack Project</h3>
+<p>Up until this point, we've taken for granted that full-stack apps, like your Express and Django projects, were single, integrated projects.</p>
+<p>However, developing a MERN-stack project involves complexities such as tooling, React's integrated development server, etc.</p>
+<p>Additionally, there are concerns in both <strong>development and production</strong> environments that have to be addressed.</p>
+<h4 id="during-development" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#during-development" aria-label="during development permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>During Development...</h4>
+<p>A React project uses a development server that compiles and serves the React app to the browser at <code>localhost:3000</code>.</p>
+<details>
+<summary>❓ There's a conflict between React's development server and the Express applications we've built previously - what is it?</summary>
+<p><strong>They both run on port 3000 by default.</strong></p>
+</details>
+<p>Luckily, the React team recognized this conflict and has a solution which we'll see in a bit.</p>
+<h4 id="production-environment-concerns" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#production-environment-concerns" aria-label="production environment concerns permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Production Environment Concerns</h4>
+<p>As we develop our React app locally, we're writing source code that React's dev server builds and runs automatically.  However, this is not production ready code because it has extra debugging logic, etc.</p>
+<p>In a moment will see how to <strong>build</strong> the React app locally, however, this locally built code is git ignored thus it's important to ensure that whatever hosting service you deploy to is configured to <strong>build</strong> the React app in the cloud.</p>
+<p>Luckily for us, beginning in 2019, deployment services started to automatically build React apps when they are deployed.</p>
+<p>In addition to ensuring that the hosting service builds the React app, we will also need to code the Express app to serve the built production code.</p>
+<h4 id="possible-mern-stack-project-structures" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#possible-mern-stack-project-structures" aria-label="possible mern stack project structures permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Possible MERN-Stack Project Structures</h4>
+<p>There are two general architectures we could pursue:</p>
+<ol>
+<li>Maintain <strong>two</strong> separate projects, one for the React app, the other for the Express backend.</li>
+<li>Integrate the codebase for both the React frontend and the Express backend.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Architecture</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Separate Projects</td>
+<td><ul><li>Better for when the backend services multiple frontend projects (web, native mobile, desktop).</li></ul></td>
+<td><ul><li>Must manage two projects and git repos.</li><li>Must deploy to two separate projects.</li><li>The React project will require code and/or configuration to access the correct backend during development (localhost) and production (could be anywhere).</li><li>Must implement CORS.</li></ul></td>
+</tr>
+<tr>
+<td>Single Project</td>
+<td><ul><li>A single integrated project.</li><li>None of the above Cons.</li></ul></td>
+<td><ul><li>Not the best project structure to re-use the same backend project to service multiple frontend projects, e.g., Web/Mobile/Desktop</li></ul></td>
+</tr>
+</tbody>
+</table>
+<p>The single, integrated project approach looks to be a no-brainer. But, what does the structure of a single project look like?</p>
+<p>Again, two options:</p>
+<ol>
+<li>Start with an Express app, then generate the React app within it (naming it <code>client</code> or something similar). This approach will result in nested <strong>package.json</strong> files and <strong>node_modules</strong> folders requiring you to "know where you are" when installing additional Node modules. Also with this approach, your deployment service will not "see" the React app and will not build it automatically.</li>
+<li>Start with a React app, then add an Express <strong>server.js</strong> and other server related folders/files as necessary. This approach results in a single <strong>package.json</strong> file and <strong>node_modules</strong> folder.</li>
+</ol>
+<p>The second option is "cleaner" and less error prone, so we'll opt for that approach.</p>
+<p>Now that we've discussed how to structure a MERN-Stack app, let's take a look at the reference app we'll build together this unit...</p>
+<h2 id="this-units-reference-app-mern-cafe" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#this-units-reference-app-mern-cafe" aria-label="this units reference app mern cafe permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>This Unit's Reference App: <strong>MERN CAFE</strong></h2>
+<p>As you know, it's important to practice the individual skills we learn for a given technology by bringing them together to build a real-world working application.</p>
+<p>This unit's reference app is a MERN-Stack online food ordering app called <a href="https://mern-cafe-app.herokuapp.com/">MERN CAFE</a>.</p>
+<p>Be sure to sign-up:</p>
+<img src="./mern-infrastructure-lesson_files/LLatCrr.png">
+<p>and place a couple of orders!</p>
+<img src="./mern-infrastructure-lesson_files/VR8fRl7.png">
+<h2 id="building-a-mern-stacks-infrastructure" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#building-a-mern-stacks-infrastructure" aria-label="building a mern stacks infrastructure permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Building a MERN-Stack's Infrastructure</h2>
+<p>We'll begin by building out the infrastructure (boilerplate) that every real-world MERN-Stack app starts with, including client-side routing and authentication.</p>
+<p>After the infrastructure code is complete, we'll save the project to a separate repo that can be cloned to launch future MERN-Stack projects, including your capstone project at the end of this unit!</p>
+<h2 id="lets-begin-building-mern-infrastructure" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#lets-begin-building-mern-infrastructure" aria-label="lets begin building mern infrastructure permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Let's Begin Building <strong>mern-infrastructure</strong></h2>
+<p>Here's the plan:</p>
+<ol>
+<li>Generate the React app</li>
+<li>Build the React app's production code</li>
+<li>Code the skeleton Express app</li>
+<li>Define the "catch all" route in the Express backend</li>
+<li>Test the Express server</li>
+</ol>
+<p>Let's do this!</p>
+<h3 id="1-generate-the-react-app" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#1-generate-the-react-app" aria-label="1 generate the react app permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1. Generate the React App</h3>
+<p>The <strong>best</strong> way to create a React project is by using the <code>create-react-app</code> script provided by the React team:</p>
+<div class="gatsby-highlight" data-language="text"><pre style="counter-reset: linenumber NaN" class="language-text line-numbers"><code class="language-text">cd ~/code
+npx create-react-app mern-infrastructure</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span></span></pre></div>
+<blockquote>
+<p>Note: A new folder will be created named <strong>mern-infrastructure</strong>. If you would like to generate a project in the future within an existing folder, you can use <code>.</code> in place of the project name.</p>
+</blockquote>
+<p>Creating a new React app takes some time because <code>create-react-app</code> also installs the Node modules - and there's a ton of them!</p>
+<p>Let's briefly review the outputted message:</p>
+<div class="gatsby-highlight" data-language="text"><pre style="counter-reset: linenumber NaN" class="language-text line-numbers"><code class="language-text">Created git commit.
+
+Success! Created mern-infrastructure at /Users/&lt;your username&gt;/code/mern-infrastructure
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd mern-infrastructure
+  npm start
+
+Happy hacking!</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<p>Now we can:</p>
+<ol>
+<li><code>cd mern-infrastructure</code></li>
+<li>Open the project in VS Code: <code>$ code .</code></li>
+<li>Open an integrated terminal in VS Code:  <code>control + backtick</code></li>
+<li>
+<p>Spin up React's built-in development server: <code>npm start</code>, which automatically opens the app in a browser tab at <code>localhost:3000</code>:</p>
+<img src="./mern-infrastructure-lesson_files/4ouH8bS.png" height="400">
+</li>
+</ol>
+<p>The React development server automatically builds and reloads the app in the browser whenever changes are saved.</p>
+<p>Within VS Code, we'll find a Node project's usual <strong>package.json</strong>, <strong>node_modules</strong>, etc.</p>
+<p>The React project's source code lives within the <strong>src</strong> folder:</p>
+<img src="./mern-infrastructure-lesson_files/d9T3Vqw.png" height="400">
+<h3 id="2-building-the-react-apps-production-code" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#2-building-the-react-apps-production-code" aria-label="2 building the react apps production code permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>2. Building the React App's Production Code</h3>
+<p>We will soon be coding the Express server to serve the production <strong>index.html</strong> page. Thus, we need to build the React app's code locally into production code at least once so that the Express server does not raise an error.</p>
+<p>The <code>create-react-app</code> CLI includes tooling and a <strong>build</strong> script in <strong>package.json</strong> that, when run, compiles the the code in the <strong>src</strong> and <strong>public</strong> folders of the React project into production code - placing it into a folder named <strong>build</strong>.</p>
+<p>Let's run the build script:</p>
+<div class="gatsby-highlight" data-language="text"><pre style="counter-reset: linenumber NaN" class="language-text line-numbers"><code class="language-text">npm run build</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span></span></pre></div>
+<blockquote>
+<p>Note: npm requires us to use the <code>run</code> command for scripts other than <code>start</code> and <code>test</code>.</p>
+</blockquote>
+<p>After building, examining our project's structure reveals a new <strong>build</strong> folder containing production ready static assets including <strong>index.html</strong>, <strong>static/css</strong> &amp; <strong>static/js</strong> folders, etc.  If this React app was a frontend only app, the assets in the build folder would be ready to be deployed to any static hosting service.</p>
+<p>This <strong>build</strong> folder of production-ready goodness is ready to be served up by an Express backend...</p>
+<h3 id="3-code-the-skeleton-express-app" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#3-code-the-skeleton-express-app" aria-label="3 code the skeleton express app permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>3. Code the Skeleton Express App</h3>
+<p>Now with the React app up and running, we can start to code the Express backend.</p>
+<p>We <em>could</em> use Express generator if we save the existing React-oriented <strong>package.json</strong> file and merge it with the Express dependencies.</p>
+<p>Instead we're going to code our own Express app from scratch because we won't need much middleware, etc. due to the fact that the Express backend simply needs to:</p>
+<ul>
+<li>Deliver the <strong>production-ready</strong> <strong>index.html</strong>, which will in turn request the <strong>production-ready</strong> scripts, etc.</li>
+<li>Respond to AJAX requests, performing any necessary CRUD, and finally respond with JSON.</li>
+</ul>
+<h4 id="install-the-modules-for-the-express-server" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#install-the-modules-for-the-express-server" aria-label="install the modules for the express server permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install the Modules for the Express Server</h4>
+<p>There's no problem with the Express project happily sharing that same <strong>package.json</strong> that <code>create-react-app</code> created.</p>
+<p>For now, we're only going to install a minimal number of modules for the Express app:</p>
+<div class="gatsby-highlight" data-language="text"><pre style="counter-reset: linenumber NaN" class="language-text line-numbers"><code class="language-text">npm i express morgan serve-favicon</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span></span></pre></div>
+<blockquote>
+<p>Again, we don't need a view engine because our server will be either serving static assets (index.html, CSS, JS, images, etc.) or responding to AJAX requests with JSON. There will be no EJS templates!</p>
+</blockquote>
+<p>Later, we'll install additional modules, e.g., <code>mongoose</code>, <code>dotenv</code>, etc.</p>
+<h4 id="create-and-code-the-express-app-serverjs" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#create-and-code-the-express-app-serverjs" aria-label="create and code the express app serverjs permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Create and Code the Express App (<strong>server.js</strong>)</h4>
+<p>Let's code our Express server:</p>
+<ol>
+<li>Ensure that you're still in the root folder of the React project.</li>
+<li><code>touch server.js</code></li>
+<li>
+<p>At the top of <strong>server.js</strong>, let's do all the familiar stuff: <code>require</code> the modules; create the Express app; and mount the <code>morgan</code> logging middleware and <code>express.json()</code> middleware that processes JSON data sent in the AJAX request and adds it to the <code>req.body</code>:</p>
+<div class="gatsby-highlight" data-language="js"><pre style="counter-reset: linenumber NaN" class="language-js line-numbers"><code class="language-js"><span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> favicon <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'serve-favicon'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> logger <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'morgan'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">logger</span><span class="token punctuation">(</span><span class="token string">'dev'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<details open=""><summary>❓ Why don't we need to mount the <code>express.urlencoded()</code> middleware also?</summary><p><strong>Because <code>express.urlencoded</code> middleware is used to process data submitted by a form - and we don't submit forms in a SPA.</strong></p></details>
+</li>
+<li>
+<p>Mount and configure the <code>serve-favicon</code> &amp; <code>static</code> middleware so that they serve from the <strong>build</strong> (production) folder:</p>
+<div class="gatsby-highlight" data-language="js"><pre style="counter-reset: linenumber NaN" class="language-js line-numbers"><code class="language-js">app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Configure both serve-favicon &amp; static middleware</span>
+<span class="token comment">// to serve from the production 'build' folder</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">favicon</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'build'</span><span class="token punctuation">,</span> <span class="token string">'favicon.ico'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">static</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'build'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+</li>
+<li>
+<p>Set the port for development to use <code>3001</code> so that React's dev server can continue to use <code>3000</code> and finally, tell the Express app to listen for incoming requests:</p>
+<div class="gatsby-highlight" data-language="js"><pre style="counter-reset: linenumber NaN" class="language-js line-numbers"><code class="language-js"><span class="token comment">// Configure to use port 3001 instead of 3000 during</span>
+<span class="token comment">// development to avoid collision with React's dev server</span>
+<span class="token keyword">const</span> port <span class="token operator">=</span> process<span class="token punctuation">.</span>env<span class="token punctuation">.</span><span class="token constant">PORT</span> <span class="token operator">||</span> <span class="token number">3001</span><span class="token punctuation">;</span>
+
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span>port<span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Express app running on port </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>port<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+</li>
+</ol>
+<h3 id="4-define-the-catch-all-route" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#4-define-the-catch-all-route" aria-label="4 define the catch all route permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>4. Define the "Catch All" Route</h3>
+<p>A single "catch all" route is required to serve the <strong>index.html</strong> when any non-AJAX "API" request is received by the Express app:</p>
+<div class="gatsby-highlight" data-language="js"><pre style="counter-reset: linenumber NaN" class="language-js line-numbers"><code class="language-js">app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">static</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'build'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">// Put API routes here, before the "catch all" route</span>
+
+<span class="token comment">// The following "catch all" route (note the *) is necessary</span>
+<span class="token comment">// to return the index.html on all non-AJAX requests</span>
+app<span class="token punctuation">.</span><span class="token function">get</span><span class="token punctuation">(</span><span class="token string">'/*'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">req<span class="token punctuation">,</span> res</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  res<span class="token punctuation">.</span><span class="token function">sendFile</span><span class="token punctuation">(</span>path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> <span class="token string">'build'</span><span class="token punctuation">,</span> <span class="token string">'index.html'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<blockquote>
+<p>Note: Since this route is a "catch all" that matches every <code>GET</code> request, be sure to mount API or other routes before it!</p>
+</blockquote>
+<p>Now the "catch all" route will serve the <strong>index.html</strong> whenever:</p>
+<ul>
+<li>A user types a path into the address bar and presses enter.</li>
+<li>The user refreshes the browser.</li>
+<li>An "external" link in an email, included on another web page, etc. to the MERN-Stack app is clicked.</li>
+</ul>
+<p>For example, if we slack the following link to a friend: <code>https://mern-cafe-app.herokuapp.com/orders/new</code>. The friend clicks on it, initiating an HTTP request to our server.</p>
+<p>However, the <code>/orders/new</code> part of the URL is supposed to be for the client router - not the server!  But there it is, and the server has to deal with it...</p>
+<p>The server deals with it by, thanks to the "catch all" route, sending back  <strong>index.html</strong> - which is what we want.</p>
+<p>After <strong>index.html</strong> loads in the browser, the React app's client-side routing will render components based upon the <code>/orders/new</code> path in the address bar.</p>
+<h3 id="5-test-the-express-server" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#5-test-the-express-server" aria-label="5 test the express server permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>5. Test the Express Server</h3>
+<p>We should now be able to test the Express server.</p>
+<p>However, please note that we can no longer just type <code>nodemon</code> because just typing <code>nodemon</code> relies on the <code>start</code> script in <strong>package.json</strong> to know what to run and that script is being used to start the React dev server instead.</p>
+<p>Therefore, in the MERN-Stack development environment, it's important to start the Express server by typing:</p>
+<div class="gatsby-highlight" data-language="text"><pre style="counter-reset: linenumber NaN" class="language-text line-numbers"><code class="language-text">nodemon server</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span></span></pre></div>
+<p>As expected, the Express server will run on port 3001 instead of 3000 (which is where the React dev server runs).</p>
+<p>Browsing to <code>localhost:3001</code> will display our React app!</p>
+<h3 id="-review-questions---mern-stack-development" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#-review-questions---mern-stack-development" aria-label=" review questions   mern stack development permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>❓ Review Questions - MERN-Stack Development</h3>
+<ol>
+<li><strong>Is the app we're currently viewing at <code>localhost:3001</code> the "production" version of the React app or the version within the <code>src</code> folder?</strong></li>
+<li><strong>What command must be run to update the React app's production code?</strong></li>
+</ol>
+<h2 id="configure-react-for-mern-stack-development" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#configure-react-for-mern-stack-development" aria-label="configure react for mern stack development permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configure React for MERN-stack Development</h2>
+<p>Note how we're viewing the React app without the React development server running - as we just discussed, this is because we are viewing the built production code, not the code as it exists in the <strong>src</strong> folder.</p>
+<blockquote>
+<p><strong>IMPORTANT</strong>: During development, you don't want to browse to <code>localhost:3001</code>! Instead, you want the browser to load the React app from React's dev server on <code>localhost:3000</code>. You should only browse to <code>localhost:3001</code> to check out how the production code will run when deployed, however, don't forget to build before doing so.</p>
+</blockquote>
+<p>So, when you are hacking out code and nothing seems to be updating in the browser - be sure to verify that you are browsing <code>localhost:3000</code>!</p>
+<h3 id="running-both-express--react-during-development" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#running-both-express--react-during-development" aria-label="running both express  react during development permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Running Both Express &amp; React During Development</h3>
+<p>To develop a MERN-Stack app, you'll need two <strong>separate</strong> terminal sessions for running:</p>
+<ol>
+<li>The Express backend</li>
+<li>React's development server</li>
+</ol>
+<details><summary>❓ If we don't already have the Express server running, we start it with what command?</summary>
+<p>
+</p><div class="gatsby-highlight" data-language="text"><pre style="counter-reset: linenumber NaN" class="language-text line-numbers"><code class="language-text">nodemon server</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span></span></pre></div>
+<p></p>
+</details>
+<details><summary>❓ Now let's open a second terminal session and start React's dev server using what command?</summary>
+<p>
+</p><div class="gatsby-highlight" data-language="text"><pre style="counter-reset: linenumber NaN" class="language-text line-numbers"><code class="language-text">npm start</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span></span></pre></div>
+<p></p>
+</details>
+<p>Now, browse to <code>localhost:3000</code> - not <code>3001</code>!</p>
+<p>So far, so good, but there's an problem lurking...</p>
+<h3 id="ensuring-that-the-react-dev-server-sends-ajax-calls-to-the-express-server" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#ensuring-that-the-react-dev-server-sends-ajax-calls-to-the-express-server" aria-label="ensuring that the react dev server sends ajax calls to the express server permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ensuring that the React Dev Server Sends AJAX Calls to the Express Server</h3>
+<p>Let's think ahead to when we begin to make AJAX requests from the React app to our server using code like this:</p>
+<div class="gatsby-highlight" data-language="js"><pre style="counter-reset: linenumber NaN" class="language-js line-numbers"><code class="language-js"><span class="token keyword">return</span> <span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">'/api/orders/history'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">res</span> <span class="token operator">=&gt;</span> res<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span></span></pre></div>
+<details open=""><summary>❓ Which host/server will that fetch request be sent to?</summary>
+<p><strong>The same host as shown in the address bar: <code>localhost:3000</code></strong>
+</p></details>
+<details open=""><summary>❓ Where do we actually need the fetch requests be sent to during development?</summary>
+<p><strong>Our Express server that's listening for AJAX requests at <code>localhost:3001</code> !</strong>
+</p></details>
+<p>BTW, this is only a problem <strong>during development</strong> - the deployed app will be just fine thanks to our chosen MERN-Stack structure that uses a single project for the frontend and backend.</p>
+<p>Luckily, the React team has created an easy fix for this dilemma. The React development server allows us to configure a "proxy" which specifies the host to forward API/AJAX calls to.</p>
+<p>The fix is to add a <code>"proxy"</code> key in the <strong>TOP-LEVEL</strong> of the <strong>package.json</strong>:</p>
+<div class="gatsby-highlight" data-language="text"><pre style="counter-reset: linenumber NaN" class="language-text line-numbers"><code class="language-text">  "browserslist": {
+    "production": [
+      "&gt;0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3001"
+}</code><span aria-hidden="true" class="line-numbers-rows" style="white-space: normal; width: auto; left: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></pre></div>
+<blockquote>
+<p>Note: The React dev server will NOT automatically restart when changes are made to the package.json file.</p>
+</blockquote>
+<p>Now <strong>during development</strong>, the React SPA can make AJAX calls, such as <code>fetch('/api/todos')</code>, and the request will be "proxied" (forwarded) to <code>localhost:3001</code> instead of <code>localhost:3000</code>.</p>
+<h4 id="welcome-to-the-mern-stack" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#welcome-to-the-mern-stack" aria-label="welcome to the mern stack permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Welcome to the MERN-stack!</h4>
+<h2 id="-essential-questions" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#-essential-questions" aria-label=" essential questions permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>❓ Essential Questions</h2>
+<ol>
+<li><strong>What folder holds a React app's production-ready code?</strong></li>
+<li><strong>What's the responsibility of the "catch all" route defined in the Express app?</strong></li>
+<li><strong>True or False: API routes will need to be defined in the Express app so that the React app can CRUD data, etc. on the server.</strong></li>
+<li><strong>True or False: The React app should use a "service/api" module to communicate with the backend's API routes via AJAX.</strong></li>
+</ol>
+<h2 id="references" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#references" aria-label="references permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>References</h2>
+<p><a href="https://beta.reactjs.org/">React Docs</a></p>
+<h1 id="section-2" style="position:relative;"><a href="https://ps-rtt-sei.herokuapp.com/15-week/mod-3/week-13/day-3/slides/#section-2" aria-label="section 2 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Section 2</h1></main></div><footer class="footer-module--footer--3QjQW"><p>Copyright © Per Scholas 2023</p><section></section></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/offline-plugin-app-shell-fallback/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-3cfebb7ee59e1e7f3600.js"],"app":["/app-0730cd307360a5301aec.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-631c8ff68f235357b86d.js"],"component---src-pages-404-js":["/component---src-pages-404-js-ad125183c78f204adbe9.js"],"component---src-pages-course-details-js":["/component---src-pages-course-details-js-1fa353e793c6db882db9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc5a668bb16b55e98ce0.js"],"component---src-pages-main-js":["/component---src-pages-main-js-5c40ab85ae34e660f4d3.js"],"component---src-pages-mod-1-15-js":["/component---src-pages-mod-1-15-js-42cec69b6544e488ac0c.js"],"component---src-pages-mod-1-js":["/component---src-pages-mod-1-js-4c6098d46139853ca8b6.js"],"component---src-pages-mod-2-15-js":["/component---src-pages-mod-2-15-js-2301c099427b068414c0.js"],"component---src-pages-mod-2-js":["/component---src-pages-mod-2-js-d7d132d1ae4626e06843.js"],"component---src-pages-mod-2-update-js":["/component---src-pages-mod-2-update-js-a504e3f1fbbd0ec48a83.js"],"component---src-pages-mod-3-15-js":["/component---src-pages-mod-3-15-js-27cc794d2ac17e0378e0.js"],"component---src-pages-mod-3-js":["/component---src-pages-mod-3-js-b45c6d59dc099c6bed7f.js"],"component---src-pages-mod-3-update-js":["/component---src-pages-mod-3-update-js-d895d37c2e6fc8c37c90.js"],"component---src-templates-page-js":["/component---src-templates-page-js-5dc73960feaa93acc569.js"]};/*]]>*/</script><script src="./mern-infrastructure-lesson_files/polyfill-3cfebb7ee59e1e7f3600.js" nomodule=""></script><script src="./mern-infrastructure-lesson_files/component---cache-caches-gatsby-plugin-offline-app-shell-js-631c8ff68f235357b86d.js" async=""></script><script src="./mern-infrastructure-lesson_files/app-0730cd307360a5301aec.js" async=""></script><script src="./mern-infrastructure-lesson_files/framework-3a7848aaea46757d07eb.js" async=""></script><script src="./mern-infrastructure-lesson_files/webpack-runtime-ed9eaa30d0151fa21629.js" async=""></script><div id="gatsby-plugin-scroll-indicator" style="background: rgb(52, 67, 235); height: 4px; left: 0px; position: fixed; top: 0px; width: 0%; transition: width 0.25s ease 0s; z-index: 9999;"></div></body></html>
